@@ -1,0 +1,36 @@
+.chatbot-chat-input-container {
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.chatbot-chat-input-container input {
+	width: 80%;
+
+	border: 1px solid #b7c4e9;
+	color: #432b51;
+	background: #9c78ad;
+	height: 35px;
+	font-family: 'Quicksand';
+	padding-left: 20px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	outline: none;
+	font-size: 14px;
+}
+
+.chatbot-chat-input-container input::placeholder {
+	color: #a1b2e4;
+	font-size: 14px;
+}
+
+.chatbot-chat-input-container button {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	border: 1px solid #432b51;
+	background: #432b51;
+	background-image: url('../../../assets/images/interfaz.png');
+}
